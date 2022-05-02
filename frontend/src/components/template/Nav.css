@@ -1,0 +1,23 @@
+aside.menu-area{
+    background-color: var(--bg-dark);
+    box-shadow: 
+        2px 0 10px 0 rgba(0, 0, 0, 0.12),
+        2px 0 15px 0 rgba(0, 0, 0, 0.09);
+}
+
+/* aqui iremos mexer com links, com este comando cada link na sua linha */
+.menu a{
+    display: block;
+    /* não exibe sublinhado e deixa o texto levemente 'esmaecido' */
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    padding: 15px; 
+}
+
+/* background do menu em gradiente */
+/* sera ativado somente quando o user passar o mouse em cima */
+/* verificar com o Paulo o esquema de cores */
+.menu a:hover {
+    background: linear-gradient(135deg, #07a7e3 0%, #32dac3 100%);
+}

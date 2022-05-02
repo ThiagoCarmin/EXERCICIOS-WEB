@@ -1,0 +1,14 @@
+/* uma tag do tipo Header que tem a classe do tipo Header */
+header.header{
+    background-color: #fff;
+    /* este altera posição do logo */
+    padding: 0px 15px;
+    /* as duas proximas linhas alteram o comportamento quando alteramos o tamanho da pagina */
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: var(--shadow);
+}
+
+header.header h1{
+    font-size: 1.8em;
+}
