@@ -1,0 +1,10 @@
+//backend
+npm install font-awesom
+
+npm install bootstrap
+
+npm i --save json-server@0.13 -E
+
+//frontend
+npm i
+
